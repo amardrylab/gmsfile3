@@ -1,8 +1,8 @@
 import re
-from subclass.runtyp import runtyp
-from subclass.method import method
-from subclass.basis import basis
-from subclass.writefile import writefile
+from .runtyp import runtyp
+from .method import method
+from .basis import basis
+from .writefile import writefile
 
 class gms(runtyp, method, basis, writefile):
 	__data__=''

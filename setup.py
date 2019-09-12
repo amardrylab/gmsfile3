@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name="gmsfile",
-        version="0.1.0",
+        version="0.1.2",
         author="Gourab Kanti Das",
         author_email="gourabkanti.das@visva-bharati.ac.in",
         description="A converter from XYZ to GAMESS file",
