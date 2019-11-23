@@ -7,6 +7,8 @@ This is a simple package You can use it by calling
 
 >   mol.runtyp("opt")
 
+    mol.basis('6-31G*')
+
 >   mol.writefile("mol.inp")
 
 

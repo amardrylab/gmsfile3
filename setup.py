@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name="gmsfile",
-        version="0.1.3",
+        version="0.1.4",
         author="Gourab Kanti Das",
         author_email="gourabkanti.das@visva-bharati.ac.in",
         description="A converter from XYZ to GAMESS file",
@@ -14,9 +14,9 @@ setuptools.setup(
         url="https://github.com/amardrylab/gmsfile3",
         packages = setuptools.find_packages(),
         classifiers=[
-            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.5",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
         ],
-        python_requires='>=3.7',
+        python_requires='>=3.0',
 )
